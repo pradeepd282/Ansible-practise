@@ -1,0 +1,5 @@
+---
+- name: install nginx sdf
+  apt:
+   name: nginx
+   state: present

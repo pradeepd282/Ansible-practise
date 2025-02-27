@@ -8,5 +8,10 @@
   become: yes
   tasks:
   - include_tasks: myfile.yml
+
+- hosts: 172.31.31.34
+  become: yes
+  tasks: 
+  - include_tasks: nginx.yml
      
    
