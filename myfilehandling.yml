@@ -13,5 +13,15 @@
   become: yes
   tasks: 
   - include_tasks: nginx.yml
+
+- name: create folder 
+  file:
+   path: /home/admin/myfolder
+   state: directory
+
+- name: copy file into folder
+  copy:
+   src: staticfile
+   dest: /home/admin/myfolder/staticfile
      
    
