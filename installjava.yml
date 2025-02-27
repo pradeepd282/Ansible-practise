@@ -1,0 +1,5 @@
+--- 
+- name: install java on n
+  apt:
+   name: openjdk-17-jdk
+   state: present 
