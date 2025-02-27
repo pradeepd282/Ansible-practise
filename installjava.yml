@@ -1,7 +1,8 @@
 --- 
 - hosts: 172.31.31.34
   become: yes
-- name: install java on nodes
-  apt:
-    name: openjdk-17-jdk
-    state: present 
+  tasks:
+  - name: install java on nodes
+    apt:
+     name: openjdk-17-jdk
+     state: present 
