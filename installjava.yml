@@ -3,5 +3,5 @@
   become: yes
 - name: install java on nodes
   apt:
-   name: openjdk-17-jdk
-   state: present 
+    name: openjdk-17-jdk
+    state: present 
