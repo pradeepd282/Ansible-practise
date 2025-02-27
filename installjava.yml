@@ -1,7 +1,5 @@
 --- 
-  become: yes
-  tasks:
-  - name: install java on nodes
-    apt:
-     name: openjdk-17-jdk
-     state: present 
+- name: install java on nodes
+  apt:
+    name: openjdk-17-jdk
+    state: present 
