@@ -19,9 +19,5 @@
    path: /home/admin/myfolder
    state: directory
 
-- name: copy file into folder
-  copy:
-   src: staticfile
-   dest: /home/admin/myfolder/staticfile
      
    
