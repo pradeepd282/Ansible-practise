@@ -18,11 +18,7 @@
   become: yes
   tasks: 
   - include_tasks: myfolder.yml
-
---- 
-- hosts: 172.31.31.34
-  become: yes
-  tasks: 
+ 
   - name: copy file into folder
     copy: 
      src: staticfile
