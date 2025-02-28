@@ -28,7 +28,11 @@
     file:
      path: /home/admin/pradeep
      state: directory
-
+  
+  - name: copy a file into folder
+    file: 
+      src: index.j2
+      dest: /var/www/html/index.nginx-debian.html/index.j2
 
 
 
