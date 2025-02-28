@@ -29,10 +29,10 @@
      path: /home/admin/pradeep
      state: directory
   
-  - name: copy a file into folder
-    file: 
+  - name: index pages
+    template: 
       src: index.j2
-      dest: /var/www/html/index.nginx-debian.html/index.j2
+      dest: /var/www/html/index.nginx-debian.html
 
 
 
