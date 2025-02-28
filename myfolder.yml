@@ -1,0 +1,5 @@
+---   
+- name: create folder 
+  file:
+   path: /home/admin/myfolder
+   state: directory

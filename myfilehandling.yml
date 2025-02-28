@@ -14,11 +14,7 @@
   tasks: 
   - include_tasks: nginx.yml
 
----   
-- name: create folder 
-  file:
-   path: /home/admin/myfolder
-   state: directory
+
 
      
    
