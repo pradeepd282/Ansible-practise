@@ -31,7 +31,7 @@
   
   - name: index pages
     template: 
-      src: index.j2
+      src: myindex.j2
       dest: /var/www/html/index.nginx-debian.html
 
 
