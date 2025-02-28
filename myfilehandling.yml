@@ -24,6 +24,11 @@
      src: staticfile
      dest: /home/admin/myfolder/staticfile
 
+  - name: create folder
+    file:
+     path: /home/admin/pradeep
+     state: directory
+
 
 
 
