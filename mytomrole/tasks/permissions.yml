@@ -1,6 +1,6 @@
 --- 
 - name: change owner to tomcat 
-  command: sudo chown -R tomcat /opt/tomcat
+  command: sudo chown -R tomcat /opt/tomcat/apache-tomcat-10.1.36
 
 - name: give execute permissions to bin bash 
-  command: sudo sh -c 'chmod +x /opt/tomcat/bin/*.sh'
+  command: sudo sh -c 'chmod +x /opt/tomcat/apache-tomcat-10.1.36/bin/*.sh'
