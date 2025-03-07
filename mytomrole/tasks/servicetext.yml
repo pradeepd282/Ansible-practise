@@ -1,5 +1,5 @@
 --- 
 - name: copy file service file
   template:
-   src: /templates/mytomservice.j2
+   src: /templates/mytomcatservice.j2
    dest: /etc/systemd/system/tomcat.service
